@@ -12,9 +12,9 @@ public class SimpleProductDAO implements ProductDAO {
     private int lastProductId = 3;
 
     public SimpleProductDAO() {
-        products.add(new Product(1, "Coffee", "Beverage", 7));
-        products.add(new Product(2, "Green tea", "Beverage", 3));
-        products.add(new Product(3, "Smoothie", "Beverage", 7));
+        products.add(new Product(1, "Coffee", 7));
+        products.add(new Product(2, "Green tea", 3));
+        products.add(new Product(3, "Smoothie", 7));
     }
 
     @Override
